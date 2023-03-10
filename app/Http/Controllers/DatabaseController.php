@@ -111,16 +111,7 @@ class DatabaseController extends Controller
                 'trailer' => $request->trailer,
                 'poster' => $request->poster,
                 'overview' => $request->overview,
-
             ]);
-            // save();
-            // $model->title = $request->title;
-            // $model->year = $request->year;
-            // $model->category = $request->category;
-            // $model->trailer = $request->trailer;
-            // $model->poster = $request->poster;
-            // $model->overview = $request->overview;
-            // $model->save();
 
             return response()->json([
                 'status' => 'Success',
